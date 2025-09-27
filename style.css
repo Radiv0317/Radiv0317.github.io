@@ -1,0 +1,139 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      scroll-behavior: smooth;
+    }
+    nav.navbar {
+      background: #000;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    nav .navbar-brand {
+      font-family: 'Anton', sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+      color: #fff;
+    }
+    nav .nav-link {
+      color: #fff;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav .nav-link:hover {
+      color: #c8c8c8;
+    }
+    .page-one {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .page-one h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+    }
+    .page-one p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .page-one .btn {
+      padding: 0.7rem 1.5rem;
+      border-radius: 10px;
+      font-weight: 500;
+      margin-top: 1.5rem;
+      background-color: transparent;
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+    .page-one .btn:hover {
+      background-color: #000;
+      transform: scale(1.05);
+      border: 1px solid #ffffff;
+    }
+    .card {
+      background-color: transparent;
+      color: #fff;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      box-shadow: none;
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #b7b7b7;
+    }
+    .card h3 {
+      font-family: 'Anton', sans-serif;
+      letter-spacing: 1px;
+    }
+    .list-group-item {
+      background-color: transparent;
+      color: #ddd;
+      border: none;
+      padding: 12px 15px;
+      transition: background-color 0.3s ease;
+    }
+    .list-group-item:hover {
+      background-color: rgba(255,255,255,0.05);
+    }
+    .list-group-item a {
+      color: #fff;
+      font-weight: 500;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .list-group-item a:hover {
+      color: #b0b0b0;
+      text-decoration: underline;
+    }
+    .list-group-item.text-muted {
+      color: #666 !important;
+    }
+    #page-3 {
+      padding: 60px 0;
+    }
+    #page-3 h3 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    #page-3 p.text-muted {
+      color: #aaa !important;
+      font-size: 1rem;
+    }
+    #page-3 .card-title {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+    #page-3 .card-text {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+    #page-4 {
+      padding: 60px 0;
+    }
+    #page-4 h3 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    footer {
+      background: #000;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    footer small {
+      color: #aaa;
+    }
